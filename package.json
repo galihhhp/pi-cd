@@ -1,0 +1,38 @@
+{
+  "name": "@galpangestu/pi-cd",
+  "version": "0.1.0",
+  "description": "Change pi's working directory mid-session with /cd: live-search folder picker, project-root jumps, bookmarks and recent directories.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "cwd",
+    "cd",
+    "directory"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galihhhp/pi-cd.git"
+  },
+  "homepage": "https://github.com/galihhhp/pi-cd#readme",
+  "bugs": {
+    "url": "https://github.com/galihhhp/pi-cd/issues"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/cd.ts"
+    ],
+    "changelogPath": "./CHANGELOG.md"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
